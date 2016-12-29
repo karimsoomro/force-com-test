@@ -3,9 +3,9 @@ public class apexWorkbook {
         Merchandise__c[] ml = new List<Merchandise__c>();
         Merchandise__c m = new Merchandise__c(
                     Name='Pencils',
-                    Description__c='Cool pencils',  // Testing COmmit 29-12-2016 to fork
-                    Price__c=1.5,
-                    Total_Inventory__c=1000);
+                    Description__c='Cool pencils',  // Testing COmmit 29-12-2016 to fork 1123
+                    Price__c=1.5, 
+                    Total_Inventory__c=1000); 
         ml.add(m);
         Merchandise__c m2 = new Merchandise__c(
                     Name='Notebooks',
@@ -13,7 +13,7 @@ public class apexWorkbook {
                     Price__c=4.5,
                     Total_Inventory__c=2000);
         ml.add(m2);
-        insert ml;
+        insert ml;   
  
         Invoice_Statement__c inv = new Invoice_Statement__c( 
           Description__c = 'Invoice 1');
