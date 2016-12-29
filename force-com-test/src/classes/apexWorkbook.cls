@@ -3,7 +3,7 @@ public class apexWorkbook {
         Merchandise__c[] ml = new List<Merchandise__c>();
         Merchandise__c m = new Merchandise__c(
                     Name='Pencils',
-                    Description__c='Cool pencils',  // Testing COmmit 29-12-2016
+                    Description__c='Cool pencils',  // Testing COmmit 29-12-2016 to fork
                     Price__c=1.5,
                     Total_Inventory__c=1000);
         ml.add(m);
