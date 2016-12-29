@@ -9,7 +9,7 @@ public class apexWorkbook {
         ml.add(m);
         Merchandise__c m2 = new Merchandise__c(
                     Name='Notebooks',
-                    Description__c='Blue notebooks',
+                    Description__c='Blue notebooks',  
                     Price__c=4.5,
                     Total_Inventory__c=2000);
         ml.add(m2);
